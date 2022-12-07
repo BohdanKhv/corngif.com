@@ -1,0 +1,40 @@
+.btn {
+    cursor: pointer;
+    background-color: #060606;
+    border-radius: var(--border-radius-sm);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 12px;
+    border: 2px solid #060606;
+    fill: #fff;
+    transition-duration: var(--transition-duration);
+    text-decoration: none;
+    user-select: none;
+}
+.btn:active {
+    opacity: .8;
+}
+.btn span {
+    margin-right: 5px;
+    display: flex;
+}
+.btn:hover {
+    background-color: transparent;
+    color: #000;
+    fill: #000;
+}
+
+.btn.btn-link {
+    background-color: transparent;
+    border-color: transparent;
+    fill: #000;
+    color: #000;
+}
+.btn.btn-link:hover {
+    background-color: #060606;
+    border-color: #060606;
+    color: #fff;
+    fill: #fff;
+}

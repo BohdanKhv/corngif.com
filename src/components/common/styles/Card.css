@@ -1,0 +1,9 @@
+.card-name {
+    background: linear-gradient(0deg,rgba(0,0,0,0.5),hsla(0,0%,100%,0));
+}
+
+.card-user {
+    padding: 8px 8px;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: var(--border-radius-sm);
+}
